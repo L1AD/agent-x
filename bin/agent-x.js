@@ -12,7 +12,7 @@ const tsx = join(root, "node_modules", ".bin", "tsx");
 const entry = join(root, "src", "index.ts");
 
 const child = spawn(tsx, [entry], {
-  cwd: root,
+  cwd: process.cwd(),
   stdio: "inherit",
   env: { ...process.env },
 });

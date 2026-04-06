@@ -1,7 +1,7 @@
 {
   "name": "@l1ad/agent-x",
   "description": "AI-powered X engagement agent. Monitor keywords, draft replies, quote tweet, like, and follow — all from one dashboard.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "files": ["src/", "bin/", "README.md", "LICENSE", ".env.example", "tsconfig.json"],
   "bin": {
