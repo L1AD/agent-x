@@ -1,0 +1,27 @@
+{
+  "name": "@l1ad/agent-x",
+  "description": "AI-powered X engagement agent. Monitor keywords, draft replies, quote tweet, like, and follow — all from one dashboard.",
+  "version": "0.1.0",
+  "type": "module",
+  "files": ["src/", "bin/", "README.md", "LICENSE", ".env.example", "tsconfig.json"],
+  "bin": {
+    "agent-x": "./bin/agent-x.js"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "review": "tsx src/review.ts"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.19.0",
+    "better-sqlite3": "^11.0.0",
+    "@anthropic-ai/sdk": "^0.82.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
