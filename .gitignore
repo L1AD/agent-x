@@ -6,3 +6,4 @@ dist/
 *.db-shm
 .planning/
 .claude/
+CLAUDE.md

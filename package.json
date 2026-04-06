@@ -1,8 +1,37 @@
 {
   "name": "@l1ad/agent-x",
-  "description": "AI-powered X engagement agent. Monitor keywords, draft replies, quote tweet, like, and follow — all from one dashboard.",
-  "version": "0.1.1",
+  "description": "AI-powered X (Twitter) engagement agent. Monitor keywords, draft replies in your brand voice, quote tweet, like, and follow from one dashboard.",
+  "version": "0.1.2",
   "type": "module",
+  "license": "MIT",
+  "author": "L1AD",
+  "homepage": "https://github.com/L1AD/agent-x",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/L1AD/agent-x.git"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "x-api",
+    "twitter-api",
+    "ai",
+    "agent",
+    "engagement",
+    "social-media",
+    "claude",
+    "anthropic",
+    "automation",
+    "reply",
+    "quote-tweet",
+    "brand",
+    "monitoring",
+    "social-listening",
+    "twitter-bot",
+    "x-bot",
+    "content",
+    "marketing"
+  ],
   "files": ["src/", "bin/", "README.md", "LICENSE", ".env.example", "tsconfig.json"],
   "bin": {
     "agent-x": "./bin/agent-x.js"
